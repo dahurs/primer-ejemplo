@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi página moderna</title>
+  <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenid@ a mi weba</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Tabla de usuarios</h2>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Correo</th>
+      </tr>
+      <tr>
+        <td>Ana</td>
+        <td>25</td>
+        <td>ana@example.com</td>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>30</td>
+        <td>carlos@example.com</td>
+      </tr>
+     
+    </table>
+     <h2>Contáctanos</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi página moderna</p>
+  </footer>
+</body>
+</html>
